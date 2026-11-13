@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cadastro de Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topo">
+    <h1>Gerenciamento de Tarefas - Saep</h1>
+    <nav class="acoes">
+      <a href="usuarios.html">Cadastro de Usuários</a>
+      <a href="tarefas.html" class="destaque">Cadastro de Tarefas</a>
+      <a href="home.html">Gerenciar Tarefas</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2 id="tituloFormulario">Cadastro de Tarefas</h2>
+    <p id="mensagem" role="status"></p>
+    <form id="formTarefa" class="formulario">
+      <label>Descrição
+        <textarea name="descricao" required></textarea>
+      </label>
+      <label>Setor
+        <input name="nome_setor" required>
+      </label>
+      <label>Usuário
+        <select name="usuarioId" required></select>
+      </label>
+      <label>Prioridade
+        <select name="prioridade" required></select>
+      </label>
+      <label>Status
+        <select name="status" required></select>
+      </label>
+      <button id="salvarTarefa" type="submit">Cadastrar</button>
+    </form>
+  </main>
+</body>
+</html>

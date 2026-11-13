@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gerenciar tarefas</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topo">
+    <h1>Gerenciamento de Tarefas - Saep</h1>
+    <nav class="acoes">
+      <input id="busca" type="search" placeholder="Buscar tarefa..." aria-label="Buscar tarefa">
+      <a href="usuarios.html">Cadastro de Usuários</a>
+      <a href="tarefas.html">Cadastro de Tarefas</a>
+      <a href="home.html" class="destaque">Gerenciar Tarefas</a>
+    </nav>
+  </header>
+
+  <main id="quadro">
+    <h2>Tarefas</h2>
+    <section class="quadro" aria-label="Tarefas por status">
+      <section class="coluna" data-status="A_FAZER">
+        <h3>A fazer <span class="contador">0</span></h3>
+        <div class="lista"></div>
+      </section>
+      <section class="coluna" data-status="FAZENDO">
+        <h3>Fazendo <span class="contador">0</span></h3>
+        <div class="lista"></div>
+      </section>
+      <section class="coluna" data-status="PRONTO">
+        <h3>Pronto <span class="contador">0</span></h3>
+        <div class="lista"></div>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
