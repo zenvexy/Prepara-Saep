@@ -2,6 +2,8 @@
 
 Aplicação Kanban simples para cadastrar usuários e tarefas e acompanhar tarefas nos status **A fazer**, **Fazendo** e **Pronto**. A interface usa HTML, CSS e JavaScript; a API usa Node.js, Express, Prisma e MySQL/MariaDB.
 
+> Detalhe! Para utilizar o link do pages, mantenha o backend e o Xampp ligados.
+
 ## Funcionalidades
 
 - Cadastro de usuários com nome e e-mail.
